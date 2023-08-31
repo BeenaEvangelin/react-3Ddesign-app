@@ -37,8 +37,8 @@ const Shirt = () => {
             rotation={[0, 0, 0]}
             scale={0.15}
             map={logoTexture}
-            //depthTest={false}
-            //depthWrite={true}
+            depthTest={false}
+            depthWrite={true}
           />
         )}
       </mesh>
